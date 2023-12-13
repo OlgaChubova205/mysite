@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #d6fecb;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+.pro {
+    position: relative;
+    height: 400px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 200;
+    text-align: center;
+    color: fuchsia;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.images {
+    display: none;
+
+}
+
+.fox {
+    position: absolute;
+    left: 80px;
+    right: 20px;
+}
+
+.text {
+    position: absolute;
+}
+.text1{
+    top: 80px;
+    left: 400px;
+}
+
+.text2 {
+    left: 50%;
+    top: 250px;
+}
+.text a{
+    color:fuchsia;
+    font-size: 28px;
+    display: inline-block;
+    width: 180px;
+}
+input, select{
+    display: block;
+    width: 500px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: fuchsia;
+    color: white;
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background-color: white;
+    color: fuchsia;
+}
+button:active{
+    transform: scale(0.97);
+}
+.list li{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.list li:nth-child(2n){
+background-color: rgba(220, 220, 220, 0.7);
+}
+.list a{
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+    margin-left: 10px;
+    vertical-align: bottom;
+}
+.list a:hover{
+    color:fuchsia;
+}
+.login{
+    width: 600px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.login input{
+    width: 100%;
+
+}
+.login input[type=submit]{
+    border: 1px solid fuchsia;
+}
+.login input[type=submit]:hover{
+    background-color: fuchsia;
+
+}
+.left-actor{
+width: 50%;
+padding: 10px;
+}
+.right-actor{
+width: 50%;
+padding: 10px;
+}
+.right-actor img{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+    color: fuchsia;
+    text-align: center;
+}
+header img{
+    width: 108px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
